@@ -1,1 +1,1 @@
-from memory import memory
+from memory.memory import Memory
