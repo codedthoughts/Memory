@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'memory3',
-  packages = ['memory3'],
+  packages = ['memory'],
   version = '19.09.15.1',
   license='gpl-3.0',
   description = 'Lightweight json-based config manager.',
