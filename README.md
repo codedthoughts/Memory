@@ -32,7 +32,7 @@ v = cfg._get('score', 0)
 
 #You can access the config object directly too
 
-cfg.data['score'] = 10
+cfg['score'] = 10
 
 #But if you edit the object, make sure to save after to save it to the config
 
