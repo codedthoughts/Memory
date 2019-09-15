@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'memory3',
   packages = ['memory3'],
-  version = '19.09.15',
+  version = '19.09.15.1',
   license='gpl-3.0',
   description = 'Lightweight json-based config manager.',
   author = 'Kaiser',
   author_email = 'technomancer@gmx.com',
   url = 'https://github.com/codedthoughts/memory3',
-  download_url = 'https://github.com/codedthoughts/memory3/archive/19.09.15.tar.gz',
+  download_url = 'https://github.com/codedthoughts/memory3/archive/19.09.15.1.tar.gz',
   keywords = ['json', 'config', 'manager'],
   install_requires=[
           'humanfriendly',
