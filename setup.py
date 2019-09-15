@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = 'memory',
+  name = 'memory3',
   packages = ['memory'],
   version = '19.09.15',
   license='gpl-3.0',
