@@ -1,16 +1,11 @@
 from distutils.core import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-    
 setup(
   name = 'memory3',
   packages = ['memory'],
   version = '19.09.25',
   license='gpl-3.0',
   description = 'Lightweight json-based config manager.',
-  long_description=long_description,
-  long_description_content_type="text/markdown",
   author = 'Kaiser',
   author_email = 'technomancer@gmx.com',
   url = 'https://github.com/codedthoughts/memory3',
