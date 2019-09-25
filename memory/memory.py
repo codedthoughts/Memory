@@ -46,6 +46,9 @@ class Memory:
 		else:
 			return self.data
 		
+	def get(self, group = "", default = ""):
+		return self._get(group, default)
+		
 	def load(self):
 		with open(self.path, 'r') as f:
 			content = f.read()
