@@ -1,5 +1,5 @@
 # Memory
-A simple json-based config manager.
+A simple smart config manager.
 
 ##Simple usage
 
@@ -8,6 +8,11 @@ from memory import Memory
 
 cfg = Memory()
 #Creates or reads a file called config.json in the current working directory
+
+#When creating the class, you can define the config parsing engine to use. Currently supported are 'json' and 'toml'.
+#Json is available built-in to Python3, toml requires an extra library, which you can get from `pip3 install toml`
+#The engine used doesnt change the use of the class, it just changes the output file.
+#Toml has some benefits over json in readability and other aspects, but json is more supported and hardened, its personal preference really.
 
 #When creating the class, you can define a specific path for the config file too
 
