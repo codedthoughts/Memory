@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
   name = 'memory3',
   packages = ['memory'],
-  version = '19.10.08',
+  version = '20.03.01',
   license='gpl-3.0',
   description = 'Lightweight json-based config manager.',
   author = 'Kaiser',
   author_email = 'technomancer@gmx.com',
   url = 'https://github.com/codedthoughts/memory3',
-  download_url = 'https://github.com/codedthoughts/memory3/archive/19.10.08.tar.gz',
+  download_url = 'https://github.com/thecodedmind/memory3/archive/20.03.01.tar.gz',
   keywords = ['json', 'config', 'manager'],
   install_requires=[
           'humanfriendly',
@@ -33,5 +33,6 @@ setup(
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
   ],
 )
